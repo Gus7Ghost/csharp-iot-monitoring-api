@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5A7E19E3-A4DA-4FD9-80BD-AF4BB186E6F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorMonitoring.Application", "src\SensorMonitoring.Application\SensorMonitoring.Application.csproj", "{C38E43AE-C0B0-4A58-8B54-F9170811B04B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorMonitoring.Domain", "src\SensorMonitoring.Domain\SensorMonitoring.Domain.csproj", "{AFE84541-3ECE-41AF-BA70-01F8DF91A457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorMonitoring.Infrastructure", "src\SensorMonitoring.Infrastructure\SensorMonitoring.Infrastructure.csproj", "{BEC1D96B-124B-404F-93AE-03B6075DE216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorMonitoring.WebApi", "src\SensorMonitoring.WebApi\SensorMonitoring.WebApi.csproj", "{4A8B30F8-0AE3-4688-952A-E6C097E78930}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{69165DCD-5114-4333-B616-D010A46B91D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorMonitoring.Tests", "tests\SensorMonitoring.Tests\SensorMonitoring.Tests.csproj", "{C2F6FA85-818D-470A-9E8B-C2304E42A8F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C38E43AE-C0B0-4A58-8B54-F9170811B04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38E43AE-C0B0-4A58-8B54-F9170811B04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38E43AE-C0B0-4A58-8B54-F9170811B04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38E43AE-C0B0-4A58-8B54-F9170811B04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE84541-3ECE-41AF-BA70-01F8DF91A457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE84541-3ECE-41AF-BA70-01F8DF91A457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE84541-3ECE-41AF-BA70-01F8DF91A457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE84541-3ECE-41AF-BA70-01F8DF91A457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC1D96B-124B-404F-93AE-03B6075DE216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC1D96B-124B-404F-93AE-03B6075DE216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC1D96B-124B-404F-93AE-03B6075DE216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC1D96B-124B-404F-93AE-03B6075DE216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8B30F8-0AE3-4688-952A-E6C097E78930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8B30F8-0AE3-4688-952A-E6C097E78930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8B30F8-0AE3-4688-952A-E6C097E78930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8B30F8-0AE3-4688-952A-E6C097E78930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F6FA85-818D-470A-9E8B-C2304E42A8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F6FA85-818D-470A-9E8B-C2304E42A8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F6FA85-818D-470A-9E8B-C2304E42A8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F6FA85-818D-470A-9E8B-C2304E42A8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C38E43AE-C0B0-4A58-8B54-F9170811B04B} = {5A7E19E3-A4DA-4FD9-80BD-AF4BB186E6F9}
+		{AFE84541-3ECE-41AF-BA70-01F8DF91A457} = {5A7E19E3-A4DA-4FD9-80BD-AF4BB186E6F9}
+		{BEC1D96B-124B-404F-93AE-03B6075DE216} = {5A7E19E3-A4DA-4FD9-80BD-AF4BB186E6F9}
+		{4A8B30F8-0AE3-4688-952A-E6C097E78930} = {5A7E19E3-A4DA-4FD9-80BD-AF4BB186E6F9}
+		{C2F6FA85-818D-470A-9E8B-C2304E42A8F3} = {69165DCD-5114-4333-B616-D010A46B91D2}
+	EndGlobalSection
+EndGlobal
